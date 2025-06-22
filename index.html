@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shree Dashrath bhojnalya</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <h1>Shree Dashrath bhojnalyat</h1>
+    <p>Your perfect highway food stop!</p>
+    <p>healthy and hygienic food</p>
+    <a href="#menu" class="btn">View Menu</a>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#offer">Today’s Offer</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#booking">Booking</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button onclick="toggleLang()">🇮🇳</button></li>
+    </ul>
+  </nav>
+
+  <!-- Today’s Offer Section -->
+  <section id="offer" class="section">
+    <h2>🎉 Today's Special Offer</h2>
+    <p id="offerText">Get a free chai ☕ with every breakfast plate today!</p>
+  </section>
+
+  <!-- Menu -->
+  <<section id="menu" class="section">
+  <h2>🍽️ Our Menu</h2>
+
+  <h3>🧀 Paneer</h3>
+  <ul class="menu-list">
+    <li>पालक पनीर – ₹60 / ₹100</li>
+    <li>मटर पनीर – ₹60 / ₹100</li>
+    <li>छोला पनीर – ₹60 / ₹100</li>
+    <li>शाही पनीर – ₹80 / ₹120</li>
+    <li>पंजाबी पनीर – ₹80 / ₹120</li>
+    <li>पनीर चपचप – ₹80 / ₹120</li>
+    <li>पनीर लबाबदार – ₹80 / ₹120</li>
+    <li>पनीर हंडी – ₹80 / ₹120</li>
+    <li>पनीर कोरमा – ₹80 / ₹120</li>
+    <li>मशरूम पनीर – ₹80 / ₹120</li>
+    <li>कड़ाही पनीर – ₹80 / ₹120</li>
+    <li>लखनवी पनीर – ₹80 / ₹120</li>
+    <li>मेथी मटर मलाई – ₹80 / ₹120</li>
+    <li>पनीर मसाला – ₹80 / ₹120</li>
+    <li>पनीर बटर मसाला – ₹80 / ₹120</li>
+    <li>पनीर भुर्जी – ₹80 / ₹120</li>
+    <li>पनीर हांडी हयदराबादी – ₹100 / ₹150</li>
+    <li>मलाई कोफ्ता – ₹100 / ₹150</li>
+    <li>काजू करी – ₹100 / ₹150</li>
+    <li>पनीर टिक्का मसाला – ₹180</li>
+    <li>चिल्ली पनीर – ₹180</li>
+  </ul>
+
+  <h3>🥦 सब्जी</h3>
+  <ul class="menu-list">
+    <li>आलू मटर – ₹50 / ₹90</li>
+    <li>आलू गोभी – ₹50 / ₹90</li>
+    <li>आलू छोले – ₹50 / ₹90</li>
+    <li>आलू पालक – ₹50 / ₹90</li>
+    <li>राजमा – ₹50 / ₹90</li>
+    <li>मटर मसाला – ₹50 / ₹90</li>
+    <li>आलू जीरा – ₹50 / ₹90</li>
+    <li>गोभी मसाला – ₹50 / ₹90</li>
+    <li>बैंगन मसाला – ₹50 / ₹90</li>
+    <li>भींडी फ्राय – ₹50 / ₹90</li>
+    <li>राजमा मसाला – ₹50 / ₹90</li>
+    <li>भिंडी कुरकुरी – ₹50 / ₹90</li>
+    <li>क्रिस्पी मसाला – ₹50 / ₹90</li>
+    <li>वेज कोल्हा – ₹50 / ₹120</li>
+    <li>चना मसाला – ₹50 / ₹90</li>
+    <li>पालक कॉर्न – ₹50 / ₹90</li>
+    <li>सेज टमाटर – ₹50 / ₹90</li>
+    <li>टमाटर चटनी – ₹50 / ₹90</li>
+    <li>मिक्स वेज – ₹50 / ₹90</li>
+    <li>भिंडी मसाला – ₹50 / ₹90</li>
+  </ul>
+
+  <h3>🍚 राइस</h3>
+  <ul class="menu-list">
+    <li>प्लेन राइस – ₹30 / ₹50</li>
+    <li>जीरा राइस – ₹40 / ₹70</li>
+    <li>वेज पुलाव – ₹60 / ₹100</li>
+    <li>वेज बिरयानी – ₹60 / ₹120</li>
+    <li>लेपट – ₹60 / ₹100</li>
+    <li>बटर लेपट – ₹60 / ₹100</li>
+    <li>मसाला राइस – ₹60 / ₹120</li>
+    <li>लहसुन राइस – ₹80 / ₹120</li>
+  </ul>
+
+  <h3>🔥 तंदूरी/रोटी</h3>
+  <ul class="menu-list">
+    <li>तवा रोटी – ₹5</li>
+    <li>तवा पराठा – ₹8</li>
+    <li>तंदूरी रोटी – ₹8</li>
+    <li>तंदूरी बटर – ₹10</li>
+    <li>सादा पराठा – ₹10</li>
+    <li>आलू पराठा – ₹20</li>
+    <li>बटर नान – ₹30</li>
+    <li>गार्लिक नान – ₹40</li>
+    <li>लच्छा पराठा – ₹40</li>
+  </ul>
+
+  <h3>🥣 दाल</h3>
+  <ul class="menu-list">
+    <li>दाल फ्राय – ₹40 / ₹70</li>
+    <li>दाल तड़का – ₹50 / ₹90</li>
+    <li>दाल पनीर – ₹60 / ₹100</li>
+    <li>दाल हांडी – ₹60 / ₹100</li>
+  </ul>
+
+  <h3>🍮 स्वीट्स</h3>
+  <ul class="menu-list">
+    <li>बूंदी रायता – ₹30</li>
+    <li>दही – ₹30</li>
+    <li>गुलाब जामुन – ₹15 (2 पीस)</li>
+    <li>रसगुल्ला – ₹15 (2 पीस)</li>
+    <li>रस मलाई – ₹25 (1 पीस)</li>
+  </ul>
+
+  <h3>🍱 थाली ऑफर</h3>
+  <ul class="menu-list">
+    <li>प्लेन थाली – ₹70<br>
+      (दाल, सब्जी, रोटी, चावल, सलाद, अचार)</li>
+    <li>स्पेशल थाली – ₹130<br>
+      (2 सब्जी, पनीर, दाल, बासमती चावल, 4 रोटी, रायता, सलाद, अचार, गुलाब जामुन)</li>
+  </ul>
+</section>
+
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h2>📯 About Us</h2>
+    <p>Located near the highway, Sainath Restaurant offers pure veg, fresh, and homemade-style Indian food with local flavors.</p>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="section">
+    <h2>📷 Gallery</h2>
+    <div class="gallery">
+      <img src="images/Image1.jpg" alt="View 1" />
+      <img src="images/Image2.jpg" alt="View 2" />
+      <img src="images/Image3.jpg" alt="View 3" />
+      <img src="images/Image4.jpg" alt="View 4" />
+      <img src="images/Image5.jpg" alt="View 5" />
+    </div>
+  </section>
+
+  <!-- Booking -->
+  <section id="booking" class="section">
+    <h2>📅 Book a Table</h2>
+    <form id="bookingForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="tel" placeholder="Phone Number" required />
+      <input type="date" required />
+      <input type="time" required />
+      <button type="submit">Reserve Now</button>
+    </form>
+    <p id="bookingMessage"></p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+  <h2>📞 Contact Us</h2>
+  <p>📍 Shree Dashrath Bhojnalya, Bhairao Baba Mandir ke samne, Puri Line, Itarsi, Pincode 461111</p>
+  <p>📱 7694056644</p>
+  <button onclick="window.open('https://wa.me/91-7694056644','_blank')">Chat on WhatsApp</button>
+</section>
+<section id="map" class="section">
+  <h2>🗺️ Find Us on Google Maps</h2>
+  <iframe 
+    src="https://www.google.com/maps?q=Shree+Dashrath+Bhojnalya,+Puri+Line,+Itarsi,+Madhya+Pradesh+461111&output=embed" 
+    width="100%" 
+    height="300" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy">
+  </iframe>
+</section>
+
+
+  <!-- Live Customer Reviews -->
+  <section id="reviews" class="section">
+    <h2>💬 Live Customer Reviews</h2>
+    <div class="review">"Delicious food with homely taste!" – Meena</div>
+    <div class="review">"Perfect stopover for family." – Raj</div>
+  </section>
+
+  <!-- Floating Pay Button -->
+  <div id="upi-button" onclick="toggleQR()">💸 Pay Now</div>
+
+  <!-- QR Popup -->
+  <div id="qr-popup" onclick="toggleQR()">
+    <img src="images/upi-qr.jpg" alt="UPI QR Code" />
+    <p>Scan to pay:<br><strong>shivrajput1572@ybl</strong><br>📞 7694056644</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Sainath Restaurant. All rights reserved.</p>
+    
+</section>
+<!-- Developer Credit -->
+<section id="developer" class="section" style="text-align: center; padding: 20px;">
+  <p>👨‍💻 Developed with ❤️ by <strong>Vedant Rajput</strong></p>
+</section>
+
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
